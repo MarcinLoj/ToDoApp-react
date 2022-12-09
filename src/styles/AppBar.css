@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  border-radius: 12px;
+  padding: 4px 8px;
+  border: 2px solid #000;
+  background-color: #fff;
+  color: #000;
+  font-weight: 500;
+}
+
+.input {
+  max-width: 50%;
+  margin-left: 8px;
+}
+
+label {
+  display: block;
+  margin: 0px 0px 4px 8px;
+}
+
+h1 {
+  margin: 8px;
+  align-self: center;
+}
+
+.wrongInput {
+  color: #f00;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.wrapper-mobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-mobile {
+  margin-bottom: 8px;
+  max-width: auto;
+}
+
+.h1-mobile {
+  align-self: flex-start;
+}

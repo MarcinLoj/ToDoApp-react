@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100&display=swap");
+body {
+  background-color: #4f424d;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.2px;
+  margin: 0;
+  padding: 0;
+}
+
+input:focus,
+button:focus {
+  border-color: #00e5ff;
+  outline: none;
+}
+
+.submit-btn:hover,
+button:hover {
+  border-color: #ed2fd4;
+}
+
+.app-container {
+  margin: 64px auto 0;
+  max-width: 400px;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 24px;
+}
+
+input {
+  line-height: 20px;
+}
