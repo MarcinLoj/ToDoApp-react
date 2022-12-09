@@ -67,7 +67,7 @@ const AppBar = ({ handleSubmit }: { handleSubmit: (item: Item) => void }) => {
             <p className="wrongInput">
               {isWrong.type === "empty"
                 ? "Input can't be empty"
-                : "Input can contain only characters"}
+                : "Input can't contain digits"}
             </p>
           )}
         </div>
